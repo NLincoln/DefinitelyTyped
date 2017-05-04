@@ -2355,6 +2355,7 @@ declare namespace Ember {
         oneWay(dependentKey: string): ComputedProperty;
         or(...args: string[]): ComputedProperty;
         readOnly(dependentString: string): ComputedProperty;
+        reads(dependentString: string): ComputedProperty;
     };
     // ReSharper restore DuplicatingLocalDeclaration
     function controllerFor(container: Container, controllerName: string, lookupOptions?: {}): Controller;
